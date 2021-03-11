@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	background-color: rgb(230, 224, 224);
+	height: 2000px;
+}
+.header {
+	z-index: 100;
+	align-items: center;
+	background-color: white;
+	color: rgb(54, 54, 54);
+	font-size: 20px;
+	display: flex;
+	box-shadow: black;
+	text-align: center;
+	padding: 12px;
+	justify-content: center;
+}
+
+.header h1 {
+	margin: 0;
+}
+
+#headerlogo {
+	height: 60px;
+}
+
+.navmenu {
+	position: sticky;
+	top: 0;
+	z-index: 90;
+	align-items: center;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	color: rgb(54, 54, 54);
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navmenu a {
+	font-size: 20px;
+	padding: 8px;
+	padding-bottom: 12px;
+	margin: 10px;
+	height: 20px;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.navmenu a:link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.navmenu a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+.navmenu a:hover {
+	background-color:rgb(54, 54, 54);
+	color: white;
+}
+
+.navmenu a:active {
+	background-color: rgb(54, 54, 54);
+	color: white;
+}
